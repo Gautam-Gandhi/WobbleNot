@@ -2,7 +2,7 @@
 
 A self-balancing two-wheeled robot built from scratch using an Arduino Nano, MPU6050 IMU, and NEMA17 stepper motors. 
 
-This is a personal hobby project created to explore control theory (inverted pendulum), real-time embedded systems, and hardware integration. The firmware is entirely custom-written in C++ using the PlatformIO environment.
+I started this as a personal hobby project. The goal was to build a functional balancing robot from scratch to deeply understand the underlying control theory and hardware integration. While I referenced various online resources and documentation for the math and hardware interfaces, the entire firmware architecture and codebase were written independently by me.
 
 ## Hardware Components
 - **Microcontroller:** Arduino Nano (ATmega328P)

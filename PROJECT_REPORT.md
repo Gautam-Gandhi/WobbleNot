@@ -31,7 +31,7 @@
 
 This project implements a **self-balancing two-wheeled robot** (an inverted pendulum on wheels) using an Arduino Nano as the sole microcontroller. The robot continuously reads its tilt angle from an MPU6050 inertial measurement unit (IMU), computes a correction signal using a PID controller, and drives two NEMA17 stepper motors via A4988 drivers to keep itself upright.
 
-I started this as a personal hobby project. The goal was to build a functional balancing robot from scratch to deeply understand the underlying control theory and hardware integration. While I referenced various online resources and documentation for the math and hardware interfaces, the entire firmware architecture and codebase were written independently.
+I started this as a personal hobby project. The goal was to build a functional balancing robot from scratch to deeply understand the underlying control theory and hardware integration. While I referenced various online resources and documentation for the math and hardware interfaces, the entire firmware architecture and codebase were written independently by me.
 
 The core challenge is that a two-wheel robot is an **inherently unstable system**: without active control it will fall within fractions of a second. Achieving stability requires a control loop that is both fast (≥ 100 Hz) and deterministic, running entirely on a resource-constrained 8-bit microcontroller with only 2 KB of RAM and 30 KB of Flash.
 
