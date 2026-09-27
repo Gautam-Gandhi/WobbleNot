@@ -1,4 +1,4 @@
-# Balance Bot
+# WobbleNot 🤖
 
 A self-balancing two-wheeled robot built from scratch using an Arduino Nano, MPU6050 IMU, and NEMA17 stepper motors. 
 

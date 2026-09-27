@@ -1,4 +1,4 @@
-# Self-Balancing Two-Wheel Robot — Project Report
+# WobbleNot - A Self-Balancing Two-Wheel Robot - Project Report
 
 **Platform:** Arduino Nano (ATmega328P)  
 **Firmware Language:** C++ (Arduino framework, PlatformIO)  
